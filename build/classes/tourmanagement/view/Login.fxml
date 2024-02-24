@@ -31,8 +31,8 @@
       <Label text="Password" GridPane.halignment="CENTER" GridPane.rowIndex="5" />
       <TextField fx:id="emailField" GridPane.columnIndex="1" GridPane.rowIndex="3" />
       <PasswordField fx:id="passwordField" GridPane.columnIndex="1" GridPane.rowIndex="5" />
-      <Label fx:id="message" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="6" />
-      <Button fx:id="loginBtn" mnemonicParsing="false" onAction="#onClickLoginBtn" text="Login" textFill="#ef4141" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="7">
+      <Label fx:id="message" textFill="#fa1212" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+      <Button fx:id="loginBtn" mnemonicParsing="false" onAction="#onClickLoginBtn" text="Login" textFill="#ed6242" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="7">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
@@ -49,7 +49,7 @@
                   <Font name="System Bold" size="24.0" />
                </font>
             </Label>
-            <Button fx:id="registerBtn" mnemonicParsing="false" text="Register" textFill="#1262d1" underline="true" />
+            <Button fx:id="registerBtn" mnemonicParsing="false" onAction="#onClickRegisterBtn" text="Register" textFill="#1262d1" underline="true" />
          </children>
       </HBox>
    </children>
