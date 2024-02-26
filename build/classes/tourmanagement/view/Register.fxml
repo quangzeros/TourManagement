@@ -69,7 +69,7 @@
          </GridPane.margin>
       </PasswordField>
       <Label text="Name" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
-      <TextField fx:id="emailField1" GridPane.columnIndex="1" GridPane.rowIndex="3">
+      <TextField fx:id="nameField" GridPane.columnIndex="1" GridPane.rowIndex="3">
          <GridPane.margin>
             <Insets right="50.0" />
          </GridPane.margin>

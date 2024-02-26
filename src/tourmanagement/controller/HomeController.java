@@ -31,6 +31,7 @@ public class HomeController {
         if("customer".equals(user.getRole()) ){
             System.out.println("Customer");
         }
+        this.user = user;
     }
     
     
