@@ -19,7 +19,7 @@ public class HashPassword {
     public static void main(String[] args) 
     throws NoSuchAlgorithmException, InvalidKeySpecException
 {
-    String  originalPassword = "password";
+    String  originalPassword = "admin";
 
     String generatedSecuredPasswordHash 
         = generateStorngPasswordHash(originalPassword);

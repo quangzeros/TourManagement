@@ -68,7 +68,7 @@ public class LoginController {
        gotoRegisterScreen();
    }
    
-   public void gotoHomeScreen(User user)throws IOException{
+   public void gotoHomeScreen(User user)throws IOException, SQLException{
        //Tạo FXMLLoader tương ưng với Home.fxml
       FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("../view/Home.fxml"));
       // Lấy về đối tượng root layout 
